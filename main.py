@@ -11,3 +11,6 @@ count = 0
 for char in input_string:
     if char == search_char:
         count += 1
+
+# Виводимо результат
+print(f"Символ '{search_char}' зустрічається у тексті {count} разів.")
