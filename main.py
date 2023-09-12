@@ -12,3 +12,7 @@ for char in input_string:
         letter_count += 1
     elif char.isdigit():
         digit_count += 1
+
+# Виводимо результати
+print("Кількість літер у рядку:", letter_count)
+print("Кількість цифр у рядку:", digit_count)
